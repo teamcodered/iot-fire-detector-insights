@@ -1,0 +1,18 @@
+{
+  "EventName": "read_sensor_data",
+  "EventDescription": "Read the different types of information that are provided from the sensor [Temp,Moisture]",
+  "EventID": "sensor_push",
+  "Payload": {
+    "sensor": {
+      "id": "123111000",
+      "date": "",
+      "timestamp": "",
+      "value": "",
+      "type": "",
+      "location":{
+        "long":"",
+        "latit":""
+      }
+    }
+  }
+}

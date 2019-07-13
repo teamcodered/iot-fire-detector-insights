@@ -1,0 +1,52 @@
+{
+  "deviceTypes": [
+    {
+      "id": "sensor",
+      "running": true,
+      "events": [
+        {
+          "id": "sensor_push",
+          "frequency": {
+            "repeat": "1",
+            "every": "minute"
+          },
+          "json": "{\n    \"id\": \"6546876\",\n    \"date\": \"2019-12-07\",\n    \"timestamp\": \"14:05.0\",\n    \"value\": \"120\",\n    \"type\": \"temperature\"\n}"
+        }
+      ],
+      "devices": [
+        {
+          "id": "sensor_1",
+          "generated": true
+        }
+      ],
+      "managed": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "drone",
+      "running": false,
+      "events": [
+        {
+          "id": "sendImage",
+          "frequency": {
+            "repeat": "1",
+            "every": "minute"
+          },
+          "json": "{\n  \"randomNumber\": random(0, 100)\n}\n"
+        }
+      ],
+      "devices": [
+        {
+          "id": "drone_1",
+          "generated": true,
+          "eventOverrides": []
+        }
+      ],
+      "managed": {
+        "enabled": false
+      }
+    }
+  ],
+  "APIKey": "a-w3sbu3-vmil5rsbmo"
+}

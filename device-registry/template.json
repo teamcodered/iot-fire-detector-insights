@@ -1,0 +1,8 @@
+{
+  "EventName": "event_type",
+  "EventDescription": "Description of the event",
+  "EventID": "event_id",
+  "Payload": {
+    "VariablesOrObjects": {}
+  }
+}

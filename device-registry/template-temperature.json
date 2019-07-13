@@ -1,0 +1,13 @@
+{
+  "EventName": "get_temperature",
+  "EventDescription": "Provide Readings of the temperature of the surrounding area",
+  "EventID": "temp_push",
+  "Payload": {
+    "sensor_temperature": {
+      "_id": "123111111",
+      "date": "2019-11-07",
+      "timestamp": "02:16.0",
+      "temperature": "120"
+    }
+  }
+}
