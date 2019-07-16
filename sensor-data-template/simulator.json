@@ -1,0 +1,52 @@
+{
+  "deviceTypes": [
+    {
+      "id": "sensor",
+      "running": false,
+      "events": [
+        {
+          "id": "sensor_push",
+          "frequency": {
+            "repeat": "1",
+            "every": "minute"
+          },
+          "json": "{\n \n            \"latitude\": \"37.440664904\",\n            \"longitude\": \"-122.156499374\",\n\n        \"timestamp\":increment(1563314724,100),\n        \"humidity\": random(10, 70),\n        \"temperature\": random(30, 150),\n        \"soilMoisture\": random(5, 50),\n        \"airQualityIndexAQI\": random(0, 500),\n        \"co2Level\": random(10,30),\n        \"total\": $counter   \n}"
+        }
+      ],
+      "devices": [
+        {
+          "id": "sensor_1",
+          "generated": true
+        }
+      ],
+      "managed": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "drone",
+      "running": false,
+      "events": [
+        {
+          "id": "sendImage",
+          "frequency": {
+            "repeat": "1",
+            "every": "minute"
+          },
+          "json": "{\n  \"randomNumber\": random(0, 100)\n}\n"
+        }
+      ],
+      "devices": [
+        {
+          "id": "drone_1",
+          "generated": true,
+          "eventOverrides": []
+        }
+      ],
+      "managed": {
+        "enabled": false
+      }
+    }
+  ],
+  "APIKey": "a-w3sbu3-i42eazlsoe"
+}

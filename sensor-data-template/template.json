@@ -18,14 +18,15 @@
             "location":{
                 "latitude": "",
                 "longitude": ""
-            }
-        },
-        "timestamp":"",
-        "humidity": "",
-        "temperature": "",
-        "soilMoisture": "",
-        "airQualityIndexAQI": "",
-        "co2Level": ""
+            },
+            "timestamp":"",
+            "humidity": "",
+            "temperature": "",
+            "soilMoisture": "",
+            "airQualityIndexAQI": "",
+            "co2Level": "",
+            "total": ""
         }
     }
-  }
+}
+}

@@ -1,0 +1,31 @@
+{
+    "EventName": "read_sensor_data",
+    "EventDescription": "Read the different types of information that are provided from the sensor [Temp,Moisture, ...]",
+    "EventID": "sensor_push",
+    "Payload": {
+      "sensor": {
+        "metdata":{
+            "serialNumber":"",
+            "deviceId": "",
+            "sensorType": ""
+        },
+        "operation": {
+            "powerStatus": "",
+            "networkStatus": "",
+            "isActive": ""
+        },
+        "data":{
+            "location":{
+                "latitude": "37.440664904",
+                "longitude": "-122.156499374"
+            }
+        },
+        "timestamp":"",
+        "humidity": "",
+        "temperature": "",
+        "soilMoisture": "",
+        "airQualityIndexAQI": "",
+        "co2Level": ""
+        }
+    }
+  }

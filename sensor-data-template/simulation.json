@@ -1,0 +1,25 @@
+"sensor": {
+    "metdata":{
+        "serialNumber":"123111",
+        "deviceId": "sensor_l1",
+        "sensorType": "ground-tree"
+    },
+    "operation": {
+        "powerStatus": "on",
+        "networkStatus": "active",
+        "isActive": "true"
+    },
+    "data":{
+        "location":{
+            "latitude": "37.440664904",
+            "longitude": "-122.156499374"
+        },
+        "timestamp":increment(1563314724,100),
+        "humidity": random(10, 70),
+        "temperature": random(30, 150),
+        "soilMoisture": random(5, 50),
+        "airQualityIndexAQI": random(0, 500),
+        "co2Level": random(10,30),
+        "total": $counter
+    }
+}
